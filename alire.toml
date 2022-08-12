@@ -1,0 +1,17 @@
+name = "pico_test"
+description = "Shiny new project"
+version = "0.1.0-dev"
+
+authors = ["Daniel King"]
+maintainers = ["Daniel King <damaki.gh@gmail.com>"]
+maintainers-logins = ["damaki"]
+
+executables = ["pico_test"]
+[[depends-on]]
+pico_bsp = "^1.6.0"
+
+[[pins]]
+pico_bsp = { url='https://github.com/JeremyGrosser/pico_bsp' }
+
+[configuration.values]
+rp2040_hal.Use_Startup = false
