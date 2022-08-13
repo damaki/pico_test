@@ -15,3 +15,4 @@ pico_bsp = { url='https://github.com/JeremyGrosser/pico_bsp' }
 
 [configuration.values]
 rp2040_hal.Use_Startup = false
+rp2040_hal.Interrupts = "bb_runtimes"
